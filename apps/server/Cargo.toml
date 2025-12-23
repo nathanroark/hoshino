@@ -1,6 +1,19 @@
 [package]
 name = "server"
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
 
 [dependencies]
+async-stream = "0.3.5"
+axum = "0.7.5"
+futures = "0.3.30"
+rspc = "0.2.0"
+rspc-axum = "0.1.1"
+serde = "1.0.210"
+specta = "1.0.5"
+specta-typescript = "0.0.7"
+specta-util = "0.0.7"
+thiserror = "1.0.63"
+tokio = { version = "1.40.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
